@@ -1,0 +1,21 @@
+{
+    "menu": {
+      "home": "Home",
+      "about": "About"
+    },
+    "home": {
+      "welcome": "Limitless learning at your fingertips",
+      "description": "Online learning and teaching marketplace with 5K+ courses & 10M students. Taught by experts to help you acquire new skills.",
+      "learn": "Learn more"
+    },
+    "about": {
+      "title": "A strong team",
+      "description": "Founded in 2000, our company is a provider of IT consulting and software development services. Starting as a small AI product company, we transitioned into IT services and since then have helped non-IT organizations and software product companies improve their business performance and quickly win new customers.",
+      "expertise": {
+        "title": "Our expertise",
+        "mobile-dev":"Mobile Development",
+        "web-dev": "Web Development",
+        "it": "IT consulting"
+      }
+    }
+  }

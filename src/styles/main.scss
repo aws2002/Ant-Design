@@ -1,0 +1,10 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import "./variables/variables";
+.switch[data-isOn="true"] {
+  justify-content: flex-end;
+}
+body {
+  overflow-x: hidden;
+}

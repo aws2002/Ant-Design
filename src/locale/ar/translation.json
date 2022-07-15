@@ -1,0 +1,21 @@
+{
+  "menu": {
+    "home": "Home",
+    "about": "About"
+  },
+  "home": {
+    "welcome": "Limitless learning at your fingertips",
+    "description": "سوق للتعليم والتعليم عبر الإنترنت يضم دورات 5 آلاف + و 10 ملايين طالب. تدرس من قبل خبراء لمساعدتك على اكتساب مهارات جديدة.",
+    "learn": "Learn more"
+  },
+  "about": {
+    "title": "A strong team",
+    "description": "Founded in 2000, our company is a provider of IT consulting and software development services. Starting as a small AI product company, we transitioned into IT services and since then have helped non-IT organizations and software product companies improve their business performance and quickly win new customers.",
+    "expertise": {
+      "title": "Our expertise",
+      "mobile-dev": "Mobile Development",
+      "web-dev": "Web Development",
+      "it": "IT consulting"
+    }
+  }
+}
