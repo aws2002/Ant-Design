@@ -6,6 +6,7 @@
   justify-content: flex-end;
 }
 body {
-  overflow-x: hidden;
+  display: flex;
+  justify-content: center;
 }
 //// "build": "tsc && vite build",

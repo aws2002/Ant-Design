@@ -1,13 +1,14 @@
 import React from "react";
 import { StepBackwardOutlined } from "@ant-design/icons";
-import MultilanguageBtn from "./Tools/MultilanguageBtn";
-import { Select, Button, Form, Input, Table,message } from "antd";
+import MultilanguageBtn from "../Tools/MultilanguageBtn";
+import { Select, Button, Form, Input, Table, message, Typography } from "antd";
 function AntD() {
   interface FormData {
     password: number | string;
   }
   const fruits: string[] = ["test1", "test2", "test3", "test4"];
   const [loading, setLoading] = React.useState(false);
+  const [text, setText] = React.useState("Test");
 
   const loadingE = (e: React.MouseEvent<HTMLElement>) => {
     setLoading(true);
@@ -15,9 +16,7 @@ function AntD() {
   };
   const onFinish = (e: FormData) => {
     console.log(e);
-    setTimeout(()=>(
-      message.success("Login success")
-    ),2000)
+    setTimeout(() => message.success("Login success"), 2000);
   };
   const dataSource: {
     key: string;
@@ -121,7 +120,20 @@ function AntD() {
         </Button>
       </Form>
       <br />
-      <Table dataSource={dataSource} columns={columns} />
+      <br />
+      <Typography.Paragraph
+        editable={{
+          onChange: (val) => {
+            setText(val);
+          },
+          
+        }}
+        strong
+      >
+        {text}
+      </Typography.Paragraph>
+      <br />
+      <br />
     </div>
   );
 }
